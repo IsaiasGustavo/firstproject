@@ -9,17 +9,17 @@ body {
     text-decoration: none;
 }
 .botao {
-    color: rgb(238, 235, 235);
+    color: rgb(250, 243, 243);
     font-size: 15px;
     border-radius: 5px;
     padding: 5px;
     text-decoration: none;
 }
 .botao:hover{
-    color:rgb(12, 12, 12);
-    background:rgb(250, 249, 249)
+    color:rgb(14, 13, 13);
+    background:rgb(245, 241, 241)
 }
-.Landing {
+.landing {
     min-height: 400px;
     background-size: cover;
     padding: 5px;
@@ -42,12 +42,14 @@ nav {
     justify-content: space-between;
     min-height: 10vh;
 }
-.nav-Links {
+.nav-links {
     display: flex;
     text-decoration: none;
+    
+    
 }
-.nav-Links li{
-    transition: .5s;
+.nav-links li{
+  transition: .5s;
     padding: 10px;
     font-size: 12px;
     list-style: none;
